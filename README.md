@@ -1,13 +1,17 @@
+Easy map with Leaflet and OpenStreetMap, this is bootstrapped [gatsby-starter-leaflet](https://www.gatsbyjs.com/starters/colbyfayock/gatsby-starter-leaflet)
+
 ## 🧰 What This Includes
-* [Yarn](https://yarnpkg.com/en/)
-* [Gatsby](https://www.gatsbyjs.org/)
-* [Sass](https://sass-lang.com)
-* [React Helmet](https://github.com/nfl/react-helmet)
-* [Resolve Src](https://github.com/alampros/gatsby-plugin-resolve-src)
-* [Leaflet](https://leafletjs.com/)
-* [React Leaflet](https://react-leaflet.js.org)
+
+- [Yarn](https://yarnpkg.com/en/)
+- [Gatsby](https://www.gatsbyjs.org/)
+- [Sass](https://sass-lang.com)
+- [React Helmet](https://github.com/nfl/react-helmet)
+- [Resolve Src](https://github.com/alampros/gatsby-plugin-resolve-src)
+- [Leaflet](https://leafletjs.com/)
+- [React Leaflet](https://react-leaflet.js.org)
 
 ## Author
+
 ✔ Eka Prasetia 🤵
 
 <a href="https://www.ekaprasetia.com/">
@@ -21,3 +25,15 @@
 <a href="mailto:ekaone3033@gmail.com">
   <img src="https://img.shields.io/badge/Email-ekaone3033@gmail.com-yellow" alt="Email" />
 </a>
+
+✔ Collection my App
+
+👉🛠 Find example all my [Scratch App](https://github.com/ekaone)
+
+✔ Community
+
+I am author for two communities in Indonesia
+
+- GatsbyJS Indonesia [Gatsby-ID](https://gatsbyjs.id)
+- RedwoodJS Indonesia [Redwood-ID](https://redwoodjs.id)
+- NextJS Indonesia [Next.js-ID](https://github.com/NextJS-Indonesia)

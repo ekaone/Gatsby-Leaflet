@@ -1,4 +1,4 @@
-const config = require( './package.json' );
+const config = require("./package.json");
 
 const { title, description, author, repository, homepage } = config;
 
@@ -8,31 +8,32 @@ const siteMetadata = {
   authorName: author.name,
   authorUrl: author.url,
   siteUrl: homepage,
-  siteDescription: description,
+  siteDescription: description
 };
 
 module.exports = {
+  pathPrefix: "/Gatsby-Leaflet",
   siteMetadata,
   plugins: [
-    'gatsby-plugin-resolve-src',
-    'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet',
+    "gatsby-plugin-resolve-src",
+    "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images`,
-      },
+        path: `${__dirname}/src/assets/images`
+      }
     },
-    'gatsby-plugin-react-leaflet',
+    "gatsby-plugin-react-leaflet",
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: "gatsby-plugin-manifest",
       options: {
         name: siteMetadata.companyName,
         short_name: siteMetadata.companyName,
-        start_url: '/',
-        icon: 'src/assets/images/react-leaflet-icon.png',
-      },
-    },
-  ],
+        start_url: "/",
+        icon: "src/assets/images/react-leaflet-icon.png"
+      }
+    }
+  ]
 };
